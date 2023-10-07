@@ -9,7 +9,8 @@ import { useCounterContract } from './hooks/useCounterContract';
 function App() {
   const { value, address } = useCounterContract();
 
-  // 使用sevlte代码
+  // Other code.
+  // Use sevlte example code.
   // const init = async () => {
   //   const blockchain = await Blockchain.create();
   //   const contract = blockchain.openContract(new Counter(Address.parse('EQBYLTm4nsvoqJRvs_L-IGNKwWs5RKe19HBK_lFadf19FUfb')));
